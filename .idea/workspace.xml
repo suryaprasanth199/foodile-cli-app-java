@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c1f4213-984f-4b24-b15b-c676d07e39a9" name="Changes" comment="Chore : Add csv files in data">
+    <list default="true" id="9c1f4213-984f-4b24-b15b-c676d07e39a9" name="Changes" comment="feat : Add Model classes Customer,Dish,Order,Restaurant">
+      <change afterPath="$PROJECT_DIR$/src/com/prasanth/foodiecliapp/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/prasanth/foodiecliapp/model/Dish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/prasanth/foodiecliapp/model/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/prasanth/foodiecliapp/model/Restaurant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../java programing" beforeDir="false" afterPath="$PROJECT_DIR$/../java programing" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -12,32 +17,53 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/suryaprasanth199/foodile-cli-app-java.git",
-    "accountId": "d017750c-dd93-4322-90fc-ad6642017572"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;suryaprasanth199&quot;
   }
-}]]></component>
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/suryaprasanth199/foodile-cli-app-java.git&quot;,
+    &quot;accountId&quot;: &quot;d017750c-dd93-4322-90fc-ad6642017572&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="2j345qwC92frMy8b6yAwOFeaF6G" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/PRASANTH/Downloads/java fundamentals/foodie-cli-app-java/src/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/PRASANTH/Downloads/java fundamentals/foodie-cli-app-java/src/Main.java&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -55,11 +81,51 @@
       <option name="project" value="LOCAL" />
       <updated>1720764510584</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="docs:update README.md file">
+      <option name="closed" value="true" />
+      <created>1720764888291</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1720764888291</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Chore : Add csv files in data" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chore : Add csv files in data" />
+    <MESSAGE value="docs:update README.md file" />
+    <MESSAGE value="feat : Add Model classes Customer,Dish,Order,Restaurant" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat : Add Model classes Customer,Dish,Order,Restaurant" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/prasanth/foodiecliapp/model/Dish.java</url>
+          <line>88</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/prasanth/foodiecliapp/model/Order.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/prasanth/foodiecliapp/model/Order.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/prasanth/foodiecliapp/model/Order.java</url>
+          <line>66</line>
+          <properties class="com.prasanth.foodiecliapp.model.Order" method="setRestaurant">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
